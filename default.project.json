@@ -2,24 +2,23 @@
   "name": "Twist Framework",
   "tree": {
     "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
 
     "ReplicatedStorage": {
-      "Common": {
-        "$path": "src/shared"
-      }
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
     },
 
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService",
+      "$ignoreUnknownInstances": true
     },
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+        "$path": "src/StarterPlayerScripts"
       }
     },
 
